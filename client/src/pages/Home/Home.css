@@ -1,0 +1,79 @@
+.home-container {
+    height: 270px;
+    color: white;
+    padding-left: 150px;
+}
+  
+.home-content h1 {
+    padding-top: 50px;
+    color: #e0b50f;
+    padding: 5px 0;
+    margin: 0;
+}
+.home-content h2 {
+    padding: 10px 0; /* space between h2 and h3 */
+  margin-top: 10px; /* move "Student at NIT Raipur" a bit down */
+  margin-bottom: 0;
+}
+.home-buttons {
+    margin-top: 30px; /* move the buttons a bit further down */
+  display: flex;
+  gap: 15px;
+}
+  
+.home-buttons .btn-hire {
+    background-color: #3b8ff3;
+    color: white;
+    width: 160px;
+}
+.home-buttons .btn-hire:hover {
+    background-color: white;
+    color: #3b8ff3;
+    
+    transition: 1s;
+}
+  
+.home-buttons .btn-cv {
+    background-color: #f29f67;
+    color: white;
+    margin-left: 15px;
+    width: 160px;
+}
+  
+.home-buttons .btn-cv:hover {
+    opacity: 80%;
+    transition: 1s;
+    background-color: white;
+    color:#f29f67;
+}
+.theme-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    background-color: #1e1e1e;
+    margin-top: 20px;
+    text-align: center;
+    position: fixed;
+    right: 0;
+    cursor: pointer;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    z-index: 1;
+}
+  
+  /* =============== */
+@media (max-width: 600px) {
+    .home-container {
+      padding: 0;
+      margin: 0;
+      margin-top: 50px;
+    }
+    .home-container h2 {
+      font-size: 24px;
+    }
+    .home-container h1 {
+      font-size: 24px;
+    }
+}
